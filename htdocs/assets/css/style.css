@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+:root {
+    --primary-color: #EB1024;
+    --secondary-color: #282828;
+    --body-color: #262626;
+    --brand-color: #000;
+    --brand-color-light: #fff;
+    --font-primary: "Work Sans", sans-serif;
+    --font-secondary: "Teko", sans-serif;
+    --base-font-size: 16px;
+    --trasition: all 0.5s ease;
+
+}
+
+/*Container Width*/
+@media (min-width: 1800px) {
+    .container {
+        max-width: 1800px !important;
+    }
+}
+
+/*Heading Styling*/
+.heading-h1 {
+    font-size: 60px;
+}
+
+.heading-h2 {
+    font-size: 55px;
+}
+
+.heading-h3 {
+    font-size: 42px;
+}
+
+.heading-h4 {
+    font-size: 26px;
+}
+
+.heading-h5 {
+    font-size: 24px;
+}
+
+.heading-h6 {
+    font-size: 18px;
+}
+
+/*Heading Styling (Tablet)*/
+@media (max-width: 960px) {
+    .heading-h1 {
+        font-size: 40px!important;
+    }
+
+    .heading-h2 {
+        font-size: 35px!important;
+    }
+
+    .heading-h3 {
+        font-size: 34px!important;
+    }
+
+    .heading-h4 {
+        font-size: 21px!important;
+    }
+
+    .heading-h5 {
+        font-size: 24px!important;
+    }
+
+    .heading-h6 {
+        font-size: 16px!important;
+    }
+}
+
+/*Font Family*/
+.font-primary {
+    font-family: var(--font-primary);
+}
+
+.font-secondary {
+    font-family: var(--font-secondary);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-primary);
+}
+
+/*Navbar*/
+.custom-navbar {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--font-primary);
+}
+
+.custom-navbar .nav-item:hover {
+    background-color: var(--primary-color);
+}
+
+
+/* navbar top */
+.navbar-top {
+    padding: 32px 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nav-css {
+    background-color: var(--primary-color);
+    font-size: 300px;
+}
+
+.social-link i img {
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-link i img:hover {
+    background-color: rgba(238, 224, 208);
+    border-radius: 50px;
+}
+
+@media screen and (max-width:420px) {
+    .social-link i img {
+        width: 20px;
+    }
+}
+
+.logo h3 {
+    font-weight: bold;
+}
+
+@media screen and (max-width:420px) {
+    .logo h3 {
+        font-size: 20px;
+    }
+}
+
+.icons i img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:420px) {
+    .icons i img {
+        width: 20px;
+    }
+}
+
+/* navbar top */
+
+/* main content */
+.hero-content {
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/htdocs/assets/images/Home_Hero_Background.png);
+    background-size: cover;
+    background-position: 70%;
+}
+
+.image-section {
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/htdocs/assets/images/Home_Hero_Background.png);
+    background-size: cover;
+    background-position: 70%;
+}
+
+.about-container {
+    width: 100%;
+    height: 90vh;
+    background-image: url(/htdocs/assets/images/Home_Hero_Background.png);
+    background-size: cover;
+    background-position: 70%;
+}
+
+/* navbar */
+.nav-link .nav-text {
+    color: var(--primary-color);
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+/* navbar */
+
+/* content */
+.content {
+    margin-top: 150px;
+}
+
+/*Buttons*/
+.button-primary {
+    border-radius: 5px;
+    background: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+    letter-spacing: 0;
+    font-weight: 600;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: var(--primary-color);
+}
+
+.button-secondary {
+    border-radius: 5px;
+    background: #FFFFFF4D;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+    letter-spacing: 0;
+    font-weight: 600;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.button-secondary:hover {
+    background-color: #ffffff6d;
+}
+
+/*Promo Card Link*/
+.promo-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: opacity 0.3s ease;
+}
+
+.promo-block:hover {
+    color: #ffffff;
+    opacity: 0.85;
+}
+
+.promo-icon {
+    font-size: 45px;
+
+}
+
+.promo-card-primary {
+    background-color: var(--primary-color);
+
+}
+
+.promo-card-secondary {
+    background-color: var(--secondary-color);
+}
+
+/* CTA Our Story*/
+.our-story-section {
+    /* Using a high-quality placeholder image of a motorcycle */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/htdocs/assets/images/Home_Our_Story_Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-primary);
+    padding: 80px 0;
+    height: 70vh;
+}
+
+
+/* Call to Action Link Area */
+
+.cta-wrapper {
+    /* Creates the thin line under the link */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.story-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 65%;
+    transition: opacity 0.3s ease;
+    text-align: start;
+}
+
+.story-link:hover {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.story-link i {
+    color: #e20025;
+    /* Red chevron */
+    font-size: 0.8rem;
+}
+
+/* Responsive adjustment for mobile */
+@media (max-width: 768px) {
+    .dealer-hero-section {
+        background-position: right center;
+    }
+
+    .dealer-hero-section::before {
+        background: rgba(20, 20, 20, 0.85);
+        /* Solid dark on mobile */
+    }
+
+    .content-wrapper {
+        text-align: center !important;
+    }
+
+    .dealer-logo-block,
+    .cta-container,
+    .cta-wrapper {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .content h1 {
+        font-size: 40px;
+    }
+}
+
+
+
+/* card1 */
+#btn2 button {
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn2 button:hover {
+    background-color: rgba(238, 224, 208);
+}
+
+/* card1 */
+
+/* card2 */
+#tpc {
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#tpc:hover {
+    transform: translateY(-10px);
+}
+
+/* card2 */
+
+/* card3 */
+#c p {
+    font-weight: bold;
+}
+
+#btn3 {
+    text-align: center;
+}
+
+#btn3 button {
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn3 button:hover {
+    background-color: rgba(238, 224, 208);
+}
+
+@media screen and (max-width:895px) {
+    #btn3 button {
+        width: 100px;
+    }
+}
+
+/* card3 */
+#btn4 button {
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn4 button:hover {
+    background-color: rgba(238, 224, 208);
+}
+
+/* footer */
+#footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+#footer h1 {
+    color: white;
+    padding-top: 30px;
+}
+
+#footer p {
+    color: white;
+}
+
+.icons i {
+    color: rgba(238, 224, 208);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    margin-top: 20px;
+}
+
+.credite {
+    color: white;
+}
+
+/* footer */
