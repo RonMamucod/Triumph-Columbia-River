@@ -50,27 +50,27 @@
 /*Heading Styling (Tablet)*/
 @media (max-width: 960px) {
     .heading-h1 {
-        font-size: 40px!important;
+        font-size: 40px !important;
     }
 
     .heading-h2 {
-        font-size: 35px!important;
+        font-size: 35px !important;
     }
 
     .heading-h3 {
-        font-size: 34px!important;
+        font-size: 34px !important;
     }
 
     .heading-h4 {
-        font-size: 21px!important;
+        font-size: 21px !important;
     }
 
     .heading-h5 {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
 
     .heading-h6 {
-        font-size: 16px!important;
+        font-size: 16px !important;
     }
 }
 
@@ -249,6 +249,80 @@
     background-color: #ffffff6d;
 }
 
+/* Promotion and Events */
+.promo-section {
+    padding: 80px 0;
+    background-color: white;
+    overflow: visible;
+}
+
+/* The dark background strip behind the text */
+.promo-banner-bg {
+    background: url(/htdocs/assets/images/Home_Promotion_Events_Background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.promo-content {
+    color: white;
+    padding: 100px 0;
+}
+
+.promo-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+/* Custom link styling with underlines */
+.promo-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    padding-top: 100px;
+    margin-right: 30px;
+    display: inline-flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.promo-link:hover {
+    color: #ccc;
+    border-color: #ccc;
+}
+
+
+.overlap-img {
+    width: 100px;
+    height: auto;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
+    /* This pulls the image up and out of the container to overlap */
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+@media (max-width: 991px) {
+    .overlap-img {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .promo-banner-bg {
+        min-height: auto;
+        padding: 40px 0;
+    }
+}
+
 /*Promo Card Link*/
 .promo-block {
     display: flex;
@@ -279,10 +353,77 @@
     background-color: var(--secondary-color);
 }
 
-/* CTA Our Story*/
+/* Featured Vehicle*/
+
+.featured-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+/* Vehicle Card Styling */
+.vehicle-card {
+    border: none;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.vehicle-img-wrapper {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.vehicle-title {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.vehicle-info {
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+/* Button Styling */
+.btn-view-details {
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 20px;
+    margin-top: 15px;
+    background: white;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.btn-view-details:hover {
+    background-color: #f8f9fa;
+    border-color: #999;
+}
+
+
+
+/* CTA Our Story/The Story */
 .our-story-section {
     /* Using a high-quality placeholder image of a motorcycle */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/htdocs/assets/images/Home_Our_Story_Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-primary);
+    padding: 80px 0;
+    height: 70vh;
+}
+
+.the-story-section {
+    /* Using a high-quality placeholder image of a motorcycle */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/htdocs/assets/images/Home_The_Story_Background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -304,38 +445,77 @@
     width: 250px;
 }
 
-.story-link {
+.text-link {
     color: #ffffff;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 24px;
     display: flex;
     align-items: center;
-    gap: 65%;
+    gap: 50%;
     transition: opacity 0.3s ease;
     text-align: start;
 }
 
-.story-link:hover {
+.text-link:hover {
     color: #ffffff;
     opacity: 0.8;
 }
 
-.story-link i {
+.text-link i {
     color: #e20025;
     /* Red chevron */
     font-size: 0.8rem;
 }
 
+/* Newsletter Banner */
+.newsletter-banner {
+    background-color: var(--primary-color);
+    padding: 40px 20px;
+    color: white;
+}
+
+/* Custom underline input style */
+.custom-input {
+    background: transparent;
+    font-size: 34px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 0;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.custom-input:focus {
+    background: transparent;
+    color: white;
+    box-shadow: none;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+.custom-input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 34px;
+}
+
+.btn-submit {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #f8f9fa;
+}
+
 /* Responsive adjustment for mobile */
 @media (max-width: 768px) {
-    .dealer-hero-section {
-        background-position: right center;
-    }
-
-    .dealer-hero-section::before {
-        background: rgba(20, 20, 20, 0.85);
-        /* Solid dark on mobile */
-    }
 
     .content-wrapper {
         text-align: center !important;
@@ -356,106 +536,117 @@
 
 
 
-/* card1 */
-#btn2 button {
-    width: 100px;
-    height: 30px;
-    background: transparent;
-    border: 1px solid black;
-    transition: 0.5s ease;
-    cursor: pointer;
+/* Footer */
+.footer-container {
+    background-color: white;
+    font-size: 0.85rem;
 }
 
-#btn2 button:hover {
-    background-color: rgba(238, 224, 208);
+/* Dark Left Section */
+.footer-dark-section {
+    background-color: var(--secondary-color);
+    color: #ccc;
 }
 
-/* card1 */
-
-/* card2 */
-#tpc {
-    box-shadow: 0 0 5px black;
-    transition: 0.5s ease;
-    cursor: pointer;
+.footer-dark-section p {
+    font-size: 18px;
+    color: rgba(241, 241, 241, 1);
 }
 
-#tpc:hover {
-    transform: translateY(-10px);
+.footer-dark-section i {
+    color: var(--primary-color);
 }
 
-/* card2 */
-
-/* card3 */
-#c p {
-    font-weight: bold;
+/* Hours Table Styling */
+.hours-table {
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
-#btn3 {
+.hours-table td {
+    padding: 2px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.hours-day {
+    color: #fff;
+}
+
+.hours-time {
+    text-align: right;
+}
+
+/* Right Section Links */
+
+
+.footer-white-section h5 {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(51, 51, 51, 1);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-links li a:hover {
+    color: var(--primary-color);
+}
+
+.socials {
+    margin-right: 5px;
+}
+
+.red-divider {
+    border-top: 1px solid var(--primary-color);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Sub Footer */
+
+.sub-footer {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    padding: 40px 0;
+    font-family: sans-serif;
+}
+
+.copyright-text {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footer-utility-links {
+    font-size: 12px;
+    text-align: right;
+}
+
+.footer-utility-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-utility-links .divider {
+    color: #e60023;
+    /* Matching the red from previous sections */
+    margin: 0 10px;
+}
+
+.disclaimer-text {
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
 }
-
-#btn3 button {
-    width: 150px;
-    height: 30px;
-    background: transparent;
-    border: 1px solid black;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-#btn3 button:hover {
-    background-color: rgba(238, 224, 208);
-}
-
-@media screen and (max-width:895px) {
-    #btn3 button {
-        width: 100px;
-    }
-}
-
-/* card3 */
-#btn4 button {
-    width: 150px;
-    height: 30px;
-    background: transparent;
-    border: 1px solid black;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-#btn4 button:hover {
-    background-color: rgba(238, 224, 208);
-}
-
-/* footer */
-#footer {
-    width: 100%;
-    background-color: black;
-    margin-top: 100px;
-}
-
-#footer h1 {
-    color: white;
-    padding-top: 30px;
-}
-
-#footer p {
-    color: white;
-}
-
-.icons i {
-    color: rgba(238, 224, 208);
-    font-size: 30px;
-    cursor: pointer;
-}
-
-.copyright {
-    color: white;
-    margin-top: 20px;
-}
-
-.credite {
-    color: white;
-}
-
-/* footer */
