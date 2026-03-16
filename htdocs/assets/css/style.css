@@ -268,12 +268,13 @@
 
 .promo-content {
     color: white;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .promo-title {
-    font-size: 2.5rem;
-    font-weight: 800;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: var(--font-secondary);
     text-transform: uppercase;
     line-height: 1;
     margin-bottom: 30px;
@@ -360,7 +361,6 @@
     background-color: #fff;
 }
 
-/* Vehicle Card Styling */
 .vehicle-card {
     border: none;
     text-align: center;
@@ -382,6 +382,74 @@
     font-size: 17px;
     margin-bottom: 2px;
 }
+
+/* Meet Our Team */
+.team-section {
+    background-color: #222;
+    /* Dark background matching the image */
+    color: white;
+    padding: 60px 0;
+}
+
+.team-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.btn-meet-staff {
+    background-color: white;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.85rem;
+}
+
+/* Circular Image Styling */
+.staff-circle {
+    width: 180px;
+    height: 180px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #444;
+}
+
+.staff-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Carousel Navigation Styling */
+.team-control {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.team-control:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.carousel-indicators-dots [data-bs-target] {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
 
 /* Button Styling */
 .btn-view-details {
