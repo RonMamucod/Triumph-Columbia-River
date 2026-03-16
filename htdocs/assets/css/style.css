@@ -89,6 +89,45 @@
     }
 }
 
+/*Buttons*/
+.button-primary {
+    border-radius: 5px;
+    background: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+    letter-spacing: 0;
+    font-weight: 600;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: var(--primary-color);
+}
+
+.button-secondary {
+    border-radius: 5px;
+    background: #FFFFFF4D;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+    letter-spacing: 0;
+    font-weight: 600;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.button-secondary:hover {
+    background-color: #ffffff6d;
+}
+
 
 /*Navbar*/
 .custom-navbar {
@@ -102,7 +141,7 @@
 }
 
 
-/* navbar top */
+/* Navbar top */
 .navbar-top {
     padding: 32px 0;
     width: 100%;
@@ -156,6 +195,76 @@
     }
 }
 
+/* Header */
+
+.header-container {
+    padding: 20px 0;
+    background-color: #fff;
+}
+@media(max-width: 1400px){
+.header-container .logo img{
+    width: 230px;
+}
+}
+
+/* Right side alignment styling */
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* Keeps everything right-aligned */
+}
+
+/* Top Bar Info */
+.top-info-row {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.phone-link {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Bottom Bar Actions */
+.bottom-action-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-link:hover {
+    opacity: 0.7;
+}
+
+.blue-events {
+    background-color: #2E4D9E;
+    color: white;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.trade-link {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.dealer-name {
+    font-weight: 800;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
 
 /* Hero */
 .hero-content {
@@ -167,9 +276,7 @@
 }
 
 
-
-
-/* navbar */
+/* Navbar */
 .nav-link .nav-text {
     color: var(--primary-color);
 }
@@ -190,50 +297,20 @@
     color: green;
 }
 
-/* navbar */
-
 /* content */
 .content {
     margin-top: 150px;
 }
 
-/*Buttons*/
-.button-primary {
-    border-radius: 5px;
-    background: var(--primary-color);
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #fff;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border: none;
-    letter-spacing: 0;
-    font-weight: 600;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
 
-.button-primary:hover {
-    background-color: var(--primary-color);
+/* Motorcycle */
+.motorcycle .card-image{
+    text-align: center;
 }
-
-.button-secondary {
-    border-radius: 5px;
-    background: #FFFFFF4D;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #fff;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border: none;
-    letter-spacing: 0;
-    font-weight: 600;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-.button-secondary:hover {
-    background-color: #ffffff6d;
+@media(max-width: 1800px) {
+    .motorcycle img {
+        width: 200px;
+    }
 }
 
 /* Promotion and Events */
@@ -401,13 +478,20 @@
 
 /* Carousel Navigation Styling */
 .team-control {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
     opacity: 1;
+    margin-top: 85px;
+}
+
+.carousel-control-prev {
+    margin-left: -75px;
+}
+
+.carousel-control-next {
+    margin-right: -75px;
 }
 
 .team-control:hover {
@@ -457,7 +541,6 @@
     align-items: center;
     font-family: var(--font-primary);
     padding: 80px 0;
-    height: 70vh;
 }
 
 .the-story-section {
@@ -471,7 +554,13 @@
     align-items: center;
     font-family: var(--font-primary);
     padding: 80px 0;
-    height: 70vh;
+    height: 60vh;
+}
+
+@media(max-width: 1024px){
+    .our-story-section img, .the-story-section img{
+        width: 230px;
+    }
 }
 
 
@@ -492,7 +581,6 @@
     align-items: center;
     gap: 50%;
     transition: opacity 0.3s ease;
-    text-align: start;
 }
 
 .text-link:hover {
@@ -567,9 +655,13 @@
     }
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:576px) {
     .content h1 {
         font-size: 40px;
+    }
+
+    .button-newsletter {
+        width: 100%;
     }
 }
 

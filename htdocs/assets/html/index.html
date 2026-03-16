@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <!-- navbar top -->
+  <!-- 
   <div class="container">
     <div class="navbar-top">
       <div class="logo">
@@ -28,10 +28,53 @@
       </div>
     </div>
   </div>
-  <!-- navbar top -->
+   -->
+
+  <!-- Header -->
+  <header class="header-container border-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-4 logo text-md-start text-center">
+          <img src="/htdocs/assets/images/Logo.png" alt="">
+        </div>
+
+        <div class="col-md-8">
+          <div class="info-wrapper">
+
+            <div class="top-info-row d-md-block d-none">
+              <i class="bi bi-geo-alt-fill text-dark me-1"></i>
+              <span class="me-3">17979 NE Glisan St, Portland, OR 97230</span>
+              <span class="text-muted me-3">|</span>
+              <a href="tel:503000000" class="phone-link">503.000.000</a>
+            </div>
+            
+
+            <div class="bottom-action-row d-md-flex d-none">
+              <div class="social-group">
+                <a href="#" class="social-link me-2"><img src="/htdocs/assets/images/facebook_icon.png" alt="Facebook"></a>
+                <a href="#" class="social-link"><img src="/htdocs/assets/images/instagram_icon.png" alt="Instagram"></a>
+                <a href="#" class="social-link"><img src="/htdocs/assets/images/youtube_icon.png" alt="Youtube"></a>
+              </div>
+
+              <a href="#" class="blue-events">
+                <i class="bi bi-calendar3 me-1"></i> Events
+              </a>
+
+              <a href="#" class="trade-link">
+                <i class="bi bi-arrow-repeat fs-5 align-middle me-1"></i> Value Your Trade
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
 
   <!-- Hero -->
-  <div class="hero-content container-large">
+  <section class="hero-content container-large">
     <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -88,7 +131,8 @@
         <div class="row justify-content-center">
           <div class="col">
             <div class="search-container">
-              <i class="bi bi-search"></i><input type="text" class="form-control search-input py-3" placeholder="SEARCH RIDES">
+              <i class="bi bi-search"></i><input type="text" class="form-control search-input py-3"
+                placeholder="SEARCH RIDES">
             </div>
           </div>
         </div>
@@ -110,14 +154,14 @@
       </div>
     </div>
 
-  </div>
+  </section>
 
   <!-- Motorcycles -->
   <section class="motorcycle container my-5">
     <div class="row g-0">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+      <div class="col-6 col-xl-2 col-md-4 col-lg-4">
         <div class="card text-dark h-100 border-0">
-          <div class="card-image align-items-center"><img src="/htdocs/assets/images/Motorcycle_Adventure.png"
+          <div class="card-image"><img src="/htdocs/assets/images/Motorcycle_Adventure.png"
               alt="Adventure"></div>
           <div class="card-body text-center">
             <h3 class="heading-h4 fw-semibold text-uppercase">Adventure</h3>
@@ -126,7 +170,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+      <div class="col-6 col-xl-2 col-md-4 col-lg-4">
         <div class="card text-dark h-100 border-0">
           <div class="card-image"><img src="/htdocs/assets/images/Motorcycle_ModernClassics.png" alt="Modern Classics">
           </div>
@@ -137,7 +181,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+      <div class="col-6 col-xl-2 col-md-4 col-lg-4">
         <div class="card text-dark h-100 border-0">
           <div class="card-image"><img src="/htdocs/assets/images/Motorcylce_Motocross.png" alt="Motocross"></div>
           <div class="card-body text-center">
@@ -147,7 +191,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+      <div class="col-6 col-xl-2 col-md-4 col-lg-4">
         <div class="card text-dark h-100 border-0">
           <div class="card-image"><img src="/htdocs/assets/images/Motorcycle_Roadsters.png" alt="Roadsters"></div>
           <div class="card-body text-center">
@@ -157,7 +201,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+      <div class="col-6 col-xl-2 col-md-4 col-lg-4">
         <div class="card text-dark h-100 border-0">
           <div class="card-image"><img src="/htdocs/assets/images/Motorcycle_Rocket3.png" alt="Rocket 3"></div>
           <div class="card-body text-center">
@@ -167,7 +211,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+      <div class="col-6 col-xl-2 col-md-4 col-lg-4">
         <div class="card text-dark h-100 border-0">
           <div class="card-image"><img src="/htdocs/assets/images/Motorcycle_Sport.png" alt="Sport"></div>
           <div class="card-body text-center">
@@ -184,29 +228,28 @@
   <div class="hero-content container-large"></div>
 
   <!-- Promotion and Events -->
-   <section class="promo-section">
+  <section class="promo-section">
     <div class="container-fluid p-0">
-        <div class="row g-0 align-items-center">
-            <div class="promo-banner-bg">
-                <div class="promo-content container">
-                    <h2 class="promo-title">VIEW CURRENT PROMOTIONS<br>AND EVENTS</h2>
-                    <div class="d-flex">
-                        <a href="#" class="promo-link">Promotions <i class="fa-solid fa-chevron-right"></i></a>
-                        <a href="#" class="promo-link">Events <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
+      <div class="row g-0 align-items-center">
+        <div class="promo-banner-bg">
+          <div class="promo-content container">
+            <h2 class="promo-title">VIEW CURRENT PROMOTIONS<br>AND EVENTS</h2>
+            <div class="d-flex">
+              <a href="#" class="promo-link">Promotions <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#" class="promo-link">Events <i class="fa-solid fa-chevron-right"></i></a>
             </div>
-
-            <div class="col-lg-5 overlap-img-container d-none d-lg-block">
-                <img src="/htdocs/assets/images/Home_Promotion_Events.png" 
-                     alt="Motorcycle rider" class="overlap-img">
-            </div>
+          </div>
         </div>
+
+        <div class="col-lg-5 overlap-img-container d-none d-lg-block">
+          <img src="/htdocs/assets/images/Home_Promotion_Events.png" alt="Motorcycle rider" class="overlap-img">
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
   <!--Promo Links-->
-  <div class="container-fluid p-0">
+  <section class="container-fluid p-0">
     <div class="row g-0">
       <div class="col-12 col-md-6">
         <a href="#" class="promo-block promo-card-primary">
@@ -222,162 +265,164 @@
         </a>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Featured Vehicles -->
 
   <section class="featured-section">
     <div class="container text-center">
-        <h2 class="heading-h3 fw-semibold text-uppercase mb-5">Featured Vehicles</h2>
+      <h2 class="heading-h3 fw-semibold text-uppercase mb-5">Featured Vehicles</h2>
 
-        <div id="vehicleCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-6 col-md-3">
-                            <div class="vehicle-card">
-                                <div class="vehicle-img-wrapper">
-                                    <img src="/htdocs/assets/images/Home_Featured_Moto1.jpg" class="img-fluid" alt="Motorcycle">
-                                </div>
-                                <div class="vehicle-title">Used 2018 Triumph STREET TRIPLE R</div>
-                                <div class="vehicle-info">Price: $8,895</div>
-                                <div class="vehicle-info">Stock#: TCR2978</div>
-                                <a href="#" class="btn-view-details">
-                                    <i class="bi bi-info-circle"></i> View Details
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="col-6 col-md-3">
-                            <div class="vehicle-card">
-                                <div class="vehicle-img-wrapper">
-                                    <img src="/htdocs/assets/images/Home_Featured_Moto2.jpg" class="img-fluid" alt="Motorcycle">
-                                </div>
-                                <div class="vehicle-title">New 2024 Triumph STREET TRIPLE R</div>
-                                <div class="vehicle-info">Price: $9,445</div>
-                                <div class="vehicle-info">Stock#: TCR2711</div>
-                                <a href="#" class="btn-view-details">
-                                    <i class="bi bi-info-circle"></i> View Details
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 d-none d-md-block">
-                            <div class="vehicle-card">
-                                <div class="vehicle-img-wrapper">
-                                    <img src="/htdocs/assets/images/Home_Featured_Moto3.jpg" class="img-fluid" alt="Motorcycle">
-                                </div>
-                                <div class="vehicle-title">New 2024 Triumph STREET TRIPLE R</div>
-                                <div class="vehicle-info">Price: $8,895</div>
-                                <div class="vehicle-info">Stock#: TCR2701</div>
-                                <a href="#" class="btn-view-details">
-                                    <i class="bi bi-info-circle"></i> View Details
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 d-none d-md-block">
-                            <div class="vehicle-card">
-                                <div class="vehicle-img-wrapper">
-                                    <img src="/htdocs/assets/images/Home_Featured_Moto4.jpg" class="img-fluid" alt="Motorcycle">
-                                </div>
-                                <div class="vehicle-title">New 2024 Triumph STREET TRIPLE R</div>
-                                <div class="vehicle-info">Price: $9,695</div>
-                                <div class="vehicle-info">Stock#: TCR2777</div>
-                                <a href="#" class="btn-view-details">
-                                    <i class="bi bi-info-circle"></i> View Details
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+      <div id="vehicleCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-6 col-lg-4 col-xl-3">
+                <div class="vehicle-card">
+                  <div class="vehicle-img-wrapper">
+                    <img src="/htdocs/assets/images/Home_Featured_Moto1.jpg" class="img-fluid" alt="Motorcycle">
+                  </div>
+                  <div class="vehicle-title">Used 2018 Triumph STREET TRIPLE R</div>
+                  <div class="vehicle-info">Price: $8,895</div>
+                  <div class="vehicle-info">Stock#: TCR2978</div>
+                  <a href="#" class="btn-view-details">
+                    <i class="bi bi-info-circle"></i> View Details
+                  </a>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
+              </div>
 
-<!-- Meet Our Team -->
- <section class="team-section">
+              <div class="col-6 col-lg-4 col-xl-3">
+                <div class="vehicle-card">
+                  <div class="vehicle-img-wrapper">
+                    <img src="/htdocs/assets/images/Home_Featured_Moto2.jpg" class="img-fluid" alt="Motorcycle">
+                  </div>
+                  <div class="vehicle-title">New 2024 Triumph STREET TRIPLE R</div>
+                  <div class="vehicle-info">Price: $9,445</div>
+                  <div class="vehicle-info">Stock#: TCR2711</div>
+                  <a href="#" class="btn-view-details">
+                    <i class="bi bi-info-circle"></i> View Details
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-6 col-lg-4 col-xl-3 d-lg-grid d-none">
+                <div class="vehicle-card">
+                  <div class="vehicle-img-wrapper">
+                    <img src="/htdocs/assets/images/Home_Featured_Moto3.jpg" class="img-fluid" alt="Motorcycle">
+                  </div>
+                  <div class="vehicle-title">New 2024 Triumph STREET TRIPLE R</div>
+                  <div class="vehicle-info">Price: $8,895</div>
+                  <div class="vehicle-info">Stock#: TCR2701</div>
+                  <a href="#" class="btn-view-details">
+                    <i class="bi bi-info-circle"></i> View Details
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-6 col-lg-4 col-xl-3 d-xl-grid d-none">
+                <div class="vehicle-card">
+                  <div class="vehicle-img-wrapper">
+                    <img src="/htdocs/assets/images/Home_Featured_Moto4.jpg" class="img-fluid" alt="Motorcycle">
+                  </div>
+                  <div class="vehicle-title">New 2024 Triumph STREET TRIPLE R</div>
+                  <div class="vehicle-info">Price: $9,695</div>
+                  <div class="vehicle-info">Stock#: TCR2777</div>
+                  <a href="#" class="btn-view-details">
+                    <i class="bi bi-info-circle"></i> View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet Our Team -->
+  <section class="team-section">
     <div class="container">
-        <div class="row align-items-center">
-            
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <h2 class="heading-h3 fw-semibold">Meet Our Team</h2>
-                <button class="btn-submit mt-2">Meet Our Staff</button>
-            </div>
+      <div class="row align-items-center">
 
-            <div class="col-lg-8">
-                <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        
-                        <div class="carousel-item active">
-                            <div class="d-flex justify-content-center gap-4">
-                                <div class="staff-circle">
-                                    <i class="bi bi-person-fill text-secondary fs-1"></i>
-                                </div>
-                                <div class="staff-circle">
-                                    <i class="bi bi-person-fill text-secondary fs-1"></i>
-                                </div>
-                                <div class="staff-circle d-none d-md-flex">
-                                    <i class="bi bi-person-fill text-secondary fs-1"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center gap-4">
-                                <div class="staff-circle">
-                                    <i class="bi bi-person-fill text-secondary fs-1"></i>
-                                </div>
-                                <div class="staff-circle">
-                                    <i class="bi bi-person-fill text-secondary fs-1"></i>
-                                </div>
-                                <div class="staff-circle d-none d-md-flex">
-                                    <i class="bi bi-person-fill text-secondary fs-1"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center gap-4">
-                                <div class="staff-circle">
-                                    <i class="bi bi-person-fill text-secondary fs-1"></i>
-                                </div>
-                                <div class="staff-circle">
-                                    <i class="bi bi-person-fill text-secondary fs-1"></i>
-                                </div>
-                                <div class="staff-circle d-none d-md-flex">
-                                    <i class="bi bi-person-fill text-secondary fs-1"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <button class="carousel-control-prev team-control" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon small" aria-hidden="true" style="width: 15px;"></span>
-                    </button>
-                    <button class="carousel-control-next team-control" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon small" aria-hidden="true" style="width: 15px;"></span>
-                    </button>
-
-                    <div class="carousel-indicators carousel-indicators-dots position-relative mt-4">
-                        <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="0" class="active"></button>
-                        <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="1"></button>
-                        <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="2"></button>
-                    </div>
-                </div>
-            </div>
-
+        <div class="col-12 col-lg-4 col-xl-6 mb-5 mb-xl-0">
+          <h2 class="heading-h3 fw-semibold">Meet Our Team</h2>
+          <button class="btn-submit mt-2">Meet Our Staff</button>
         </div>
+
+        <div class="col-12 col-lg-8 col-xl-6">
+          <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-center gap-4">
+                  <div class="staff-circle">
+                    <i class="bi bi-person-fill text-secondary fs-1"></i>
+                  </div>
+                  <div class="staff-circle">
+                    <i class="bi bi-person-fill text-secondary fs-1"></i>
+                  </div>
+                  <div class="staff-circle d-none d-md-flex">
+                    <i class="bi bi-person-fill text-secondary fs-1"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center gap-4">
+                  <div class="staff-circle">
+                    <i class="bi bi-person-fill text-secondary fs-1"></i>
+                  </div>
+                  <div class="staff-circle">
+                    <i class="bi bi-person-fill text-secondary fs-1"></i>
+                  </div>
+                  <div class="staff-circle d-none d-md-flex">
+                    <i class="bi bi-person-fill text-secondary fs-1"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center gap-4">
+                  <div class="staff-circle">
+                    <i class="bi bi-person-fill text-secondary fs-1"></i>
+                  </div>
+                  <div class="staff-circle">
+                    <i class="bi bi-person-fill text-secondary fs-1"></i>
+                  </div>
+                  <div class="staff-circle d-none d-md-flex">
+                    <i class="bi bi-person-fill text-secondary fs-1"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev team-control" type="button" data-bs-target="#teamCarousel"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon small" aria-hidden="true" style="width: 15px;"></span>
+            </button>
+            <button class="carousel-control-next team-control" type="button" data-bs-target="#teamCarousel"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon small" aria-hidden="true" style="width: 15px;"></span>
+            </button>
+
+            <div class="carousel-indicators carousel-indicators-dots position-relative mt-4">
+              <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="2"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-</section>
+  </section>
 
   <!--CTA Our Story-->
   <section class="our-story-section text-dark text-end">
     <div class="container content-wrapper">
       <div class="row justify-content-end">
         <!-- col-lg-7 ensures it takes up a bit more than half the screen on desktop -->
-        <div class="col-12 col-lg-7 col-xl-6">
+        <div class="col-12 col-lg-12 col-xl-6">
           <img src="/htdocs/assets/images/Logo-Inverse.png" alt="">
           <!-- Main Heading -->
           <h2 class="our-story-heading text-uppercase text-light pt-4">Triumph of Anytown</h2>
@@ -402,7 +447,7 @@
           <!-- Link with bottom border -->
           <div class="cta-container justify-content-end justify-content-sm-center">
             <div class="cta-wrapper">
-              <a href="#" class="text-link">
+              <a href="#" class="text-link justify-content-center">
                 Our Story <i class="fa-solid fa-chevron-right"></i>
               </a>
             </div>
@@ -416,9 +461,9 @@
   <!--CTA The Story-->
   <section class="the-story-section text-dark text-start">
     <div class="container content-wrapper">
-      <div class="row justify-content-start">
+      <div class="row">
         <!-- col-lg-7 ensures it takes up a bit more than half the screen on desktop -->
-        <div class="col-12 col-lg-7 col-xl-6">
+        <div class="col-12 col-lg-12 col-xl-6">
           <img src="/htdocs/assets/images/Logo-Inverse.png" alt="">
           <!-- Main Heading -->
           <h2 class="heading-h5 fw-bold text-light pt-4">The Story</h2>
@@ -432,9 +477,9 @@
             anim id est laborum.
           </p>
           <!-- Link with bottom border -->
-          <div class="cta-container justify-content-start justify-content-sm-center">
+          <div class="cta-container justify-content-start justify-content-center">
             <div class="cta-wrapper">
-              <a href="#" class="text-link">
+              <a href="#" class="text-link justify-content-center">
                 Location <i class="fa-solid fa-chevron-right"></i>
               </a>
             </div>
@@ -454,30 +499,30 @@
   </div>
 
   <!-- Featured Reviews -->
-  <div class="container my-5">
+  <section class="container my-5">
     <h2 class="text-uppercase heading-h3 text-center fw-semibold">Featured Reviews</h2>
     <!-- Elfsight Google Reviews | Triumph Columbia River -->
     <div class="mt-4">
       <script src="https://elfsightcdn.com/platform.js" async></script>
       <div class="elfsight-app-9c09201d-1b5e-4a3b-86ac-15bfe6ec356d" data-elfsight-app-lazy></div>
     </div>
-  </div>
+  </section>
 
   <!-- Newsletter Banner -->
   <section class="newsletter-banner">
     <div class="container my-5">
       <div class="row align-items-center">
-        <div class="col-md-4 mb-3 mb-md-0">
+        <div class="col-12 col-xl-4 mb-3 mb-md-0">
           <h2 class="heading-h2 fw-semibold text-uppercase">Join Our<br>Newsletter</h2>
         </div>
 
-        <div class="col-md-8">
+        <div class="col-12 col-xl-8">
           <form class="d-flex flex-column flex-sm-row align-items-end align-items-sm-center gap-4">
             <div class="flex-grow-1 w-100">
               <input type="email" class="custom-input" placeholder="name@domain.com" aria-label="Email">
             </div>
-            <div>
-              <button type="submit" class="btn-submit">Submit</button>
+            <div class="button-newsletter">
+              <button type="submit" class="btn-submit w-100">Submit</button>
             </div>
           </form>
         </div>
@@ -488,9 +533,9 @@
   <!-- Footer -->
   <footer class="footer-container container-fluid p-0 border-top border-danger border-4">
     <div class="row g-0">
-      <div class="col-lg-5 footer-dark-section container">
-        <div class="row m-5">
-          <div class="col-sm-6">
+      <div class="col-12 col-xl-6 footer-dark-section container">
+        <div class="row m-2 my-5">
+          <div class="col-12 col-lg-6">
             <div class="d-flex align-items-center mb-4">
               <img src="/htdocs/assets/images/Logo-Inverse.png" alt="Logo" height="55px">
             </div>
@@ -500,13 +545,13 @@
                 src="/htdocs/assets/images/footer_call_icon.png" alt=""></h3>
             <hr class="border-danger opacity-25 w-75">
 
-            <div class="mt-5">
+            <div class="my-5">
               <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i> Map & Hours</p>
               <p><i class="bi bi-envelope-fill me-2"></i> Contact Us</p>
             </div>
           </div>
 
-          <div class="col-sm-6">
+          <div class="col-12 col-lg-6">
             <h5 class="heading-h5 text-white">SALES HOURS</h5>
             <table class="hours-table mt-3">
               <tr>
@@ -558,8 +603,8 @@
         </div>
       </div>
 
-      <div class="col-lg-7 footer-white-section container">
-        <div class="row h-100 m-5">
+      <div class="col-xl-6 footer-white-section container">
+        <div class="row h-100 m-2 my-5">
           <div class="col-sm-4">
             <h5 class="mb-3">QUICK LINKS</h5>
             <ul class="footer-links">
@@ -586,12 +631,9 @@
           </div>
           <div class="col-12 pt-1 my-5">
             <hr class="mb-4">
-            <a href="#" class="socials"><img src="/htdocs/assets/images/footer_facebook_icon.png"
-                alt="Facebook"></a>
-            <a href="#" class="socials"><img src="/htdocs/assets/images/footer_youtube_icon.png"
-                alt="Youtube"></a>
-            <a href="#" class="socials"><img src="/htdocs/assets/images/footer_instagram_icon.png"
-                alt="Instagram"></a>
+            <a href="#" class="socials"><img src="/htdocs/assets/images/footer_facebook_icon.png" alt="Facebook"></a>
+            <a href="#" class="socials"><img src="/htdocs/assets/images/footer_youtube_icon.png" alt="Youtube"></a>
+            <a href="#" class="socials"><img src="/htdocs/assets/images/footer_instagram_icon.png" alt="Instagram"></a>
           </div>
         </div>
       </div>
@@ -601,44 +643,44 @@
   <!-- Sub Footer -->
   <footer class="sub-footer">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <p class="copyright-text mb-0">
-                    ©2025. Triumph of Anytown. All Rights Reserved. (503) 000-000
-                </p>
-            </div>
-            <div class="col-md-6">
-
-                <div class="footer-utility-links">
-                    <a href="#">Privacy</a>
-                    <span class="divider">|</span>
-                    <a href="#">Site Map</a>
-                </div>
-            </div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="copyright-text mb-0 text-center text-md-start">
+            ©2025. Triumph of Anytown. All Rights Reserved. (503) 000-000
+          </p>
         </div>
+        <div class="col-md-6">
 
-        <div class="row brand-logo-area">
-            <div class="col-12">
-                <div class="d-flex align-items-center">
-                    <img src="/htdocs/assets/images/footer-pixelmotion.png" alt="Pixel Motion Logo" height="42px" class="my-3">
-                </div>
-            </div>
+          <div class="footer-utility-links text-center text-md-end mt-3 mt-md-0">
+            <a href="#">Privacy</a>
+            <span class="divider">|</span>
+            <a href="#">Site Map</a>
+          </div>
         </div>
+      </div>
 
-        <div class="row mt-4">
-            <div class="col-12">
-                <p class="disclaimer-text">
-                    While great effort is made to ensure the accuracy of the information on this site, errors can occur. 
-                    Please verify all pricing information with a customer service representative. This is easily done 
-                    by calling us or visiting us at the dealership.
-                </p>
-            </div>
+      <div class="row brand-logo-area">
+        <div class="col-12">
+          <div class="d-flex justify-content-center justify-content-md-start align-items-center">
+            <img src="/htdocs/assets/images/footer-pixelmotion.png" alt="Pixel Motion Logo" height="42px" class="my-3">
+          </div>
         </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-12">
+          <p class="disclaimer-text">
+            While great effort is made to ensure the accuracy of the information on this site, errors can occur.
+            Please verify all pricing information with a customer service representative. This is easily done
+            by calling us or visiting us at the dealership.
+          </p>
+        </div>
+      </div>
     </div>
-</footer>
+  </footer>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
