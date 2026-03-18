@@ -276,16 +276,11 @@
 /* Hero */
 .hero-content {
     width: 100%;
-    height: 70vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/htdocs/assets/images/Home_Hero_Background.png);
     background-size: cover;
     background-position: 70%;
 }
-@media(max-width: 1024px){
-    .hero-content{
-        height: 55vh;
-    }
-}
+
 
 
 
@@ -320,7 +315,7 @@
 
 /* Hero Content */
 .content {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 @media(max-width: 430px) {
