@@ -276,7 +276,7 @@
 /* Hero */
 .hero-content {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/htdocs/assets/images/Home_Hero_Background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/images/Home_Hero_Background.png);
     background-size: cover;
     background-position: 70%;
 }
@@ -342,7 +342,7 @@
 .background-section{
     width: 100%;
     height: 60vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/htdocs/assets/images/Home_Hero_Background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/images/Home_Hero_Background.png);
     background-size: cover;
     background-position: 70%;
 
@@ -367,7 +367,7 @@
 
 /* The dark background strip behind the text */
 .promo-banner-bg {
-    background: url(/htdocs/assets/images/Home_Promotion_Events_Background.png);
+    background: url(/assets/images/Home_Promotion_Events_Background.png);
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -565,7 +565,7 @@
 /* CTA Our Story/The Story */
 .our-story-section {
     /* Using a high-quality placeholder image of a motorcycle */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/htdocs/assets/images/Home_Our_Story_Background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/Home_Our_Story_Background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -578,7 +578,7 @@
 
 .the-story-section {
     /* Using a high-quality placeholder image of a motorcycle */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/htdocs/assets/images/Home_The_Story_Background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/Home_The_Story_Background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
