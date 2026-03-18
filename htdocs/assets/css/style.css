@@ -224,7 +224,7 @@
 
 /* Top Bar Info */
 .top-info-row {
-    font-size: 14px;
+    font-size: 20px;
     color: #000;
     margin-bottom: 10px;
 }
@@ -251,7 +251,7 @@
     background-color: #2E4D9E;
     color: white;
     padding: 12px 16px;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 4px;
@@ -261,7 +261,7 @@
 .trade-link {
     color: var(--primary-color);
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
 }
